@@ -1,0 +1,51 @@
+body{
+    background-color: yellow;
+}
+h1 {
+    color:red;
+}
+#title{
+    font-size:15vw;
+    margin: 0px;
+    padding: 0px;
+}
+.menu{
+    padding: 10px;
+    font-size: 7vw;
+    width: 30vw;
+}
+
+#link1 {
+    transition: all .5s ease-in-out;
+}
+
+#link2 {
+    transition: all .5s ease-in-out;
+}
+
+#link1:hover {
+    font-size: 10vw;
+    padding-left: 40px;
+    transition: all .5s ease-in-out;
+}
+
+#link2:hover {
+    font-size: 8vw;
+    rotate: 10deg;
+    transition: all .5s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.album-covers{
+    width: 50vw;
+}
+
